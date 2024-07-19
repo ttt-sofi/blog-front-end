@@ -1,0 +1,358 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    width: 100%;
+    padding: 25px 0;
+}
+
+
+.desafio__logo {
+    object-fit: cover;
+    width: 55px;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin-left: 100px;
+}
+
+.desafio__parrafo {
+    font-weight: 700;
+    font-size: 1.5rem;
+    display: inline-block;
+    padding-left: 21px;
+}
+
+
+.section1 {
+    width: 100%;
+    text-align: center;
+}
+
+/* Column1 */
+
+.columna1 {
+    display: inline-block;
+    vertical-align: top;
+    text-align: start;
+}
+
+.novedades-columna1__imagen {
+    object-fit: cover;
+    width: 603px;
+    min-height: 314px;
+    border-radius: 30px;
+}
+
+.novedades-columna1__titulo {
+    margin: 0;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.novedades-desafio {
+    text-align: start;
+}
+
+.novedades-desafio__logo {
+    object-fit: cover;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.novedades-desafio__parrafo {
+    font-weight: 500;
+    font-size: 1.5rem;
+    display: inline-block;
+    padding-left: 21px;
+}
+
+
+/* Columna 2 */
+
+.columna2 {
+    margin: 90px 0 0 50px;
+    width: 406px;
+    display: inline-block;
+}
+
+.columna2-card {
+    text-align: start;
+    margin-bottom: 30px;
+}
+
+.columna2-imagen {
+    display: inline-block;
+}
+
+.columna2-card__image {
+    object-fit: cover;
+    width: 189px;
+    height: 145px;
+    border-radius: 20px;
+    vertical-align: middle;
+}
+
+.columna2-description {
+    width: 187px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5px 0 0 25px
+}
+
+.logo-desafio-s__imagen {
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.logo-desafio-s__parrafo {
+    font-weight: 400;
+    font-size: 1rem;
+    display: inline-block;
+    padding-left: 13px;
+}
+
+.columna2-description__titulo,
+.columna2-description__parrafo {
+    margin: 0;
+}
+
+/* Section 2 - Populares */
+
+.section2 {
+    text-align: center;
+}
+
+.populares {
+    width: 630px;
+    text-align: start;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.populares-card {
+    text-align: start;
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 349px;
+    vertical-align: top;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+}
+
+.populares-card__imagen {
+    object-fit: cover;
+    width: 289px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.populares-card__titulo {
+    font-size: 1.25rem;
+    padding-top: 10px;
+}
+
+.populares-card__subtitulo,
+.populares-card__titulo {
+    margin: 0;
+}
+
+.populares-card-logo {
+    position: absolute;
+    bottom: 0;
+}
+
+/* Categorias */
+
+
+.categorias {
+    display: inline-block;
+    text-align: start;
+    padding-left: 139px;
+    height: 100%;
+}
+
+.categorias-card {
+    text-align: start;
+    width: 289px;
+    height: 89px;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.categoria-card__logo {
+    display: inline-block;
+    object-fit: cover;
+    width: 75px;
+    padding-top: 8px;
+}
+
+.categoria-card__titulo {
+    color: white;
+    font-size: 2rem;
+    margin: 20px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+
+.categorias-card--red {
+    background-color: #E93E30;
+}
+
+.categorias-card--yellow {
+    background-color: #F7E018;
+}
+
+.categorias-card--lightblue {
+    background-color: #299ED5;
+}
+
+.categorias-card--lightblue .categoria-card__logo {
+    width: 58px;
+    padding: 15px 8px;
+}
+
+.categorias-card--black {
+    background-color: #292C33;
+}
+
+.categorias-card--black .categoria-card__logo {
+    padding: 15px 0px;
+}
+
+.categorias-card--verde {
+    background-color: #67C770;
+}
+
+.categorias-card--verde .categoria-card__logo {
+    padding: 15px 10px;
+}
+
+.categorias-card--purple {
+    background-color: #563D7C;
+}
+
+.categorias__link {
+    margin: 19px 0;
+}
+
+.categorias__link .categorias__link--dec {
+    text-decoration: none;
+}
+
+footer {
+    width: 100%;
+    padding: 25px 0;
+    text-align: start;
+    position: relative;
+}
+
+.footer-logo {
+    display: inline-block;
+}
+
+.footer__parrafo {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin: 40px 100px 0 0;
+}
+
+@media (max-width: 600px) {
+
+    body {
+        margin: 0;
+        text-align: center;
+    }
+
+    .desafio__logo{
+        margin: 0;
+    }
+
+    .columna1 {
+        text-align: center; 
+        display: block;
+    }
+
+    .novedades-columna1__imagen {
+        height: 100%;
+        width: 100%;
+    }
+
+    .novedades-desafio {
+        text-align: center;
+    }
+
+    .columna2 {
+        display: block;
+        margin: 0;
+        width: 100%;
+    }
+
+    .columna2-card {
+        text-align: center;
+    }
+
+    .columna2-card__imagen {
+        width: 100%;
+        height: auto;
+    }
+
+    .columna2-description {
+        width: 100%;
+        margin: 0;
+        padding: 10px 0 0 0;
+        text-align: center;
+    }
+
+    .logo-desafio-s {
+        display: none;
+    }
+
+    .populares{
+        text-align: center;
+        width: 100%;
+    }
+
+    .populares-card-logo{
+        display:none;
+    }
+
+    .populares-card {
+        text-align: center;
+        vertical-align: top;
+        margin-bottom: 10px;
+    }
+
+    .categorias {
+        display: inline-block;
+        text-align: center;
+        height: 100%;
+        padding-left: 20px;
+    }
+
+    footer{
+        text-align: center;
+    }
+
+    .footer__parrafo{
+        display: none;
+    }
+    
+}
