@@ -1,0 +1,46 @@
+.section-hero-post {
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+}
+
+.section-hero-post-img {
+    display: inline-block;
+}
+
+.section-hero-post-img img {
+    border-radius: 20px;
+    object-fit: cover;
+    width: 470px;
+    height: 300px;
+    vertical-align: start;
+    margin-right: 30px;
+}
+
+.section-hero-post-description {
+    display: inline-block;
+    width: 700px;
+    text-align: start;
+}
+
+.section-hero-post-description h1 {
+    width: 400px;
+}
+
+.section-hero-post-text-bottom {
+    width: 1200px;
+    margin: auto;
+    text-align: start;
+}
+
+@media (max-width: 600px) {
+
+    .section-hero-post-text-bottom,
+    .section-hero-post-description,
+    .section-hero-post-img img,
+    .section-hero-post-description h1{
+        width: 100%;
+        margin: auto;
+        text-align: start;
+    }
+}

@@ -1,0 +1,32 @@
+
+.section-hero {
+    width: 100%;
+    text-align: center;
+}
+
+.section-hero-left {
+    display: inline-block;
+    vertical-align: top;
+    text-align: start;
+}
+
+.section-hero-right {
+    margin: 90px 0 0 50px;
+    width: 406px;
+    display: inline-block;
+}
+
+@media (max-width: 600px) {
+
+
+    .section-hero-left {
+        text-align: center; 
+        display: block;
+    }
+
+    .section-hero-right {
+        display: block;
+        margin: 0;
+        width: 100%;
+    }
+}

@@ -1,0 +1,65 @@
+.populares-card {
+    text-align: start;
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 349px;
+    vertical-align: top;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+}
+
+.populares-card__imagen {
+    object-fit: cover;
+    width: 289px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.populares-card__titulo {
+    font-size: 1.25rem;
+    padding-top: 10px;
+}
+
+.populares-card__subtitulo,
+.populares-card__titulo {
+    margin: 0;
+}
+
+.populares-card-logo {
+    position: absolute;
+    bottom: 0;
+}
+
+.populares-card-post{
+    text-align: start;
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 349px;
+    padding:0 60px;
+    vertical-align: top;
+    padding-bottom:10px;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 600px) {
+
+    .populares-card-logo{
+        display:none;
+    }
+
+    .populares-card {
+        text-align: center;
+        vertical-align: top;
+        margin-bottom:0 ;
+    }
+
+    .populares-card-post{
+        text-align: center;
+        vertical-align: top;
+        margin-bottom:0 ;
+        padding:0;
+    }
+}
+

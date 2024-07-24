@@ -1,0 +1,16 @@
+.categorias {
+    display: inline-block;
+    text-align: start;
+    padding-left: 139px;
+    height: 100%;
+}
+
+@media (max-width: 600px) {
+
+    .categorias {
+        display: inline-block;
+        text-align: center;
+        height: 100%;
+        padding-left: 10px;
+    }
+}

@@ -1,0 +1,591 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+hr {
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  body {
+    margin: 0;
+    text-align: center;
+  }
+}
+.form__button {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: 60px;
+  padding: 0 10px;
+  border-width: 1.5px;
+  margin-bottom: 10px;
+  border-color: rgb(172, 170, 170);
+  border-style: solid;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.form__button:hover {
+  cursor: pointer;
+}
+
+.form__button--green {
+  background-color: #729E2E;
+  color: white;
+  border: none;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.form__button--google img {
+  width: 40px;
+  vertical-align: middle;
+}
+
+.section-hero-post {
+  text-align: center;
+  margin: auto;
+  padding: 30px;
+}
+
+.section-hero-post-img {
+  display: inline-block;
+}
+
+.section-hero-post-img img {
+  border-radius: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 470px;
+  height: 300px;
+  vertical-align: start;
+  margin-right: 30px;
+}
+
+.section-hero-post-description {
+  display: inline-block;
+  width: 700px;
+  text-align: start;
+}
+
+.section-hero-post-description h1 {
+  width: 400px;
+}
+
+.section-hero-post-text-bottom {
+  width: 1200px;
+  margin: auto;
+  text-align: start;
+}
+
+@media (max-width: 600px) {
+  .section-hero-post-text-bottom,
+  .section-hero-post-description,
+  .section-hero-post-img img,
+  .section-hero-post-description h1 {
+    width: 100%;
+    margin: auto;
+    text-align: start;
+  }
+}
+.categorias-card {
+  text-align: start;
+  width: 289px;
+  height: 89px;
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.categoria-card__logo {
+  display: inline-block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 75px;
+  padding-top: 8px;
+}
+
+.categoria-card__titulo {
+  color: white;
+  font-size: 2rem;
+  margin: 20px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+
+.categorias-card--red {
+  background-color: #E93E30;
+}
+
+.categorias-card--yellow {
+  background-color: #F7E018;
+}
+
+.categorias-card--lightblue {
+  background-color: #299ED5;
+}
+
+.categorias-card--lightblue .categoria-card__logo {
+  width: 58px;
+  padding: 15px 8px;
+}
+
+.categorias-card--black {
+  background-color: #292C33;
+}
+
+.categorias-card--black .categoria-card__logo {
+  padding: 15px 0px;
+}
+
+.categorias-card--verde {
+  background-color: #67C770;
+}
+
+.categorias-card--verde .categoria-card__logo {
+  padding: 15px 10px;
+}
+
+.categorias-card--purple {
+  background-color: #563D7C;
+}
+
+.categorias__link {
+  margin: 19px 0;
+}
+
+.categorias__link .categorias__link--dec {
+  text-decoration: none;
+}
+
+.novedades-columna1__imagen {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 603px;
+  min-height: 314px;
+  border-radius: 30px;
+}
+
+.novedades-columna1__titulo {
+  margin: 0;
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+.novedades-desafio {
+  text-align: start;
+}
+
+.novedades-desafio__logo {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.novedades-desafio__parrafo {
+  font-weight: 500;
+  font-size: 1.5rem;
+  display: inline-block;
+  padding-left: 21px;
+}
+
+@media (max-width: 600px) {
+  .novedades-columna1__imagen {
+    width: 80%;
+    text-align: center;
+  }
+  .novedades-desafio {
+    text-align: center;
+  }
+}
+.populares-card {
+  text-align: start;
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  height: 349px;
+  vertical-align: top;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+}
+
+.populares-card__imagen {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 289px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.populares-card__titulo {
+  font-size: 1.25rem;
+  padding-top: 10px;
+}
+
+.populares-card__subtitulo,
+.populares-card__titulo {
+  margin: 0;
+}
+
+.populares-card-logo {
+  position: absolute;
+  bottom: 0;
+}
+
+.populares-card-post {
+  text-align: start;
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  height: 349px;
+  padding: 0 60px;
+  vertical-align: top;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 600px) {
+  .populares-card-logo {
+    display: none;
+  }
+  .populares-card {
+    text-align: center;
+    vertical-align: top;
+    margin-bottom: 0;
+  }
+  .populares-card-post {
+    text-align: center;
+    vertical-align: top;
+    margin-bottom: 0;
+    padding: 0;
+  }
+}
+.columna2-card {
+  text-align: start;
+  margin-bottom: 30px;
+}
+
+.columna2-imagen {
+  display: inline-block;
+}
+
+.columna2-card__image {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 189px;
+  height: 145px;
+  border-radius: 20px;
+  vertical-align: middle;
+}
+
+.columna2-description {
+  width: 187px;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 5px 0 0 25px;
+}
+
+.columna2-description__titulo,
+.columna2-description__parrafo {
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .columna2-card {
+    text-align: center;
+  }
+  .columna2-card__imagen {
+    width: 100%;
+    height: auto;
+  }
+  .columna2-description {
+    width: 100%;
+    margin: 0;
+    padding: 10px 0 0 0;
+    text-align: center;
+  }
+}
+.sub-banner {
+  background-color: #63af2b;
+  color: white;
+  padding: 20px 100px;
+  text-align: center;
+}
+
+.sub-banner__title {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.sub-banner__input {
+  padding: 15px;
+  width: 300px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.sub-banner__button {
+  padding: 15px 20px;
+  margin: 0 5px;
+  background-color: #6C757D;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+@media (max-width: 600px) {
+  .sub-banner {
+    text-align: center;
+    padding: 20px 0;
+  }
+}
+.form {
+  margin: auto;
+  width: 500px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.form__title {
+  font-weight: 500;
+  text-align: center;
+}
+
+.form__input {
+  display: block;
+  margin: auto;
+  width: 100%;
+  padding: 15px 10px;
+  border-width: 1.5px;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-color: rgb(172, 170, 170);
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.form__input::-moz-placeholder {
+  font-size: 1.2rem;
+  font-weight: 200;
+  color: rgb(172, 170, 170);
+}
+
+.form__input::placeholder {
+  font-size: 1.2rem;
+  font-weight: 200;
+  color: rgb(172, 170, 170);
+}
+
+@media (max-width: 600px) {
+  .form {
+    width: auto;
+  }
+}
+header {
+  width: 100%;
+  padding: 25px 0;
+}
+
+.header__index {
+  width: 100%;
+  padding: 25px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__links {
+  padding-right: 150px;
+}
+.header__links a {
+  margin-right: 20px;
+  font-size: 1.2rem;
+  color: #729E2E;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  border-color: #729E2E;
+  border-radius: 10px;
+  border: 1px solid #729E2E;
+  padding: 10px;
+}
+.header__links a:hover {
+  background-color: #608523;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .header__logo {
+    padding-left: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header__links {
+    display: none;
+  }
+}
+.desafio__logo {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 55px;
+  border-radius: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  margin-left: 100px;
+}
+
+.desafio__parrafo {
+  font-weight: 700;
+  font-size: 1.5rem;
+  display: inline-block;
+  padding-left: 21px;
+}
+
+.logo-desafio-s__imagen {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.logo-desafio-s__parrafo {
+  font-weight: 400;
+  font-size: 1rem;
+  display: inline-block;
+  padding-left: 13px;
+}
+
+@media (max-width: 600px) {
+  .desafio__logo {
+    margin: 0;
+  }
+  .logo-desafio-s {
+    display: none;
+  }
+}
+.section-hero {
+  width: 100%;
+  text-align: center;
+}
+
+.section-hero-left {
+  display: inline-block;
+  vertical-align: top;
+  text-align: start;
+}
+
+.section-hero-right {
+  margin: 90px 0 0 50px;
+  width: 406px;
+  display: inline-block;
+}
+
+@media (max-width: 600px) {
+  .section-hero-left {
+    text-align: center;
+    display: block;
+  }
+  .section-hero-right {
+    display: block;
+    margin: 0;
+    width: 100%;
+  }
+}
+.section-populares {
+  text-align: center;
+}
+
+.populares {
+  width: 630px;
+  text-align: start;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.populares-post {
+  width: 1280px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.populares-post h1 {
+  text-align: start;
+  padding-left: 40px;
+}
+
+@media (max-width: 600px) {
+  .populares,
+  .populares-post {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 0;
+  }
+}
+.categorias {
+  display: inline-block;
+  text-align: start;
+  padding-left: 139px;
+  height: 100%;
+}
+
+@media (max-width: 600px) {
+  .categorias {
+    display: inline-block;
+    text-align: center;
+    height: 100%;
+    padding-left: 10px;
+  }
+}
+footer {
+  width: 100%;
+  padding: 25px 0;
+  text-align: start;
+  position: relative;
+}
+
+.footer-logo {
+  display: inline-block;
+}
+
+.footer__parrafo {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  margin: 40px 100px 0 0;
+}
+
+@media (max-width: 600px) {
+  footer {
+    text-align: center;
+  }
+  .footer__parrafo {
+    display: none;
+  }
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,32 @@
+.section-populares {
+    text-align: center;
+}
+
+.populares {
+    width: 630px;
+    text-align: start;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.populares-post{
+    width: 1280px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.populares-post h1{
+    text-align: start;
+    padding-left: 40px;
+}
+
+@media (max-width: 600px) {
+
+    .populares,
+    .populares-post{
+        text-align: center;
+        width: 100%;
+        padding-bottom:0;
+    }
+}

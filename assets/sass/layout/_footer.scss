@@ -1,0 +1,30 @@
+footer {
+    width: 100%;
+    padding: 25px 0;
+    text-align: start;
+    position: relative;
+}
+
+.footer-logo {
+    display: inline-block;
+}
+
+.footer__parrafo {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin: 40px 100px 0 0;
+}
+
+@media (max-width: 600px) {
+
+    footer{
+        text-align: center;
+    }
+
+    .footer__parrafo{
+        display: none;
+    }
+    
+}
+
